@@ -1,5 +1,5 @@
-num1 = input(float("Enter the first number"))
-num2 = input(float("Enter the second number"))
+num1 = input(int("Enter the first number"))
+num2 = input(int("Enter the second number"))
 operation = input("Choose the operation (+, -, *, /)")
 
 match case:
