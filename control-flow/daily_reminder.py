@@ -1,6 +1,6 @@
-task = str(input("input task description"))
-priority = str(input("task priority(high, low, medium"))
-time_bound = str(input("Is the task time bound(yes/no)"))
+task = str(input("Enter the task description"))
+priority = str(input("Enter the task's priority(high, low, medium"))
+time_bound = str(input("Is the task time-bound(yes or no)"))
 
 reminder = ""
         
