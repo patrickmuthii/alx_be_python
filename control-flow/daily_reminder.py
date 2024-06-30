@@ -1,10 +1,10 @@
-task = str(input("Enter the task description"))
-priority = str(input("Enter the task's priority(high, low, medium"))
-time_bound = str(input("Is the task time-bound(yes or no)"))
+Task = str(input("Enter the task description"))
+Priority = str(input("Enter the task's priority(high, low, medium"))
+Time_Bound = str(input("Is the task time-bound(yes or no)"))
 
 reminder = ""
         
-match priority:
+match Priority:
     case "high":
         reminder = "The task is of high priority"
     case "medium":
@@ -14,7 +14,7 @@ match priority:
     case _:
         reminder = "Invalid priority level entered"
 
-if time_bound == "yes":
+if Time_Bound == "yes":
     reminder += "that requires immediate attention today!i"
 
 
