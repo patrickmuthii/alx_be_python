@@ -1,7 +1,7 @@
-def perform_operation(float(nun1, num2,str(operation))):
+def perform_operation(num1, num2,operation):
     if operation == "add":
         return num1 + num2
-    elif operation == "subtraction":
+    elif operation == "subtract":
         return num1 - num2
     elif operation == "multiply":
         return num1 * num2
