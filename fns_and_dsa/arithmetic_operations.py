@@ -5,7 +5,7 @@ def perform_operation(num1, num2,operation):
         return num1 - num2
     elif operation == "multiply":
         return num1 * num2
-    elif operation "divide":
+    elif operation == "divide":
         if num2 == 0:
             return "division_by_zero_ERROR"
         return num1 / num2
