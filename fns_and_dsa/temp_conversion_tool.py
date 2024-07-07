@@ -10,7 +10,7 @@ def convert_to_fahrenheit(celcius):
     fahrenheit = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     return fahrenheit
 
-def main(():
+def main(): 
          try:
         # Prompt the user to enter a temperature
         temperature_input = float(input("Enter the temperature to convert: "))
