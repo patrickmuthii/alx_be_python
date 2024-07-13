@@ -4,7 +4,7 @@ class BankAccount:
 
     
     def deposit(self, amount):
-        if deposit > 0:
+        if amount > 0:
             self._account_balance += amount
         else:
             print(f'Amount must be positive number')
@@ -14,9 +14,9 @@ class BankAccount:
             self._account_balance -= amount
             return True
         else:
-            print(f'Insufficient fund in your account')
+            print(f'Insufficient funds.')
     def display_balance(self):
-        print(f'Current Balance: {self._account_balance}')
+        print(f'Current Balance: {self._account_balance:.2f}')
 
 
 
