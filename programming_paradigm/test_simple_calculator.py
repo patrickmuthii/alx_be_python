@@ -32,12 +32,12 @@ class TestSimpleCalculator(unittest.TestCase):
     def setUp(self):
         self.calc = SimpleCalculator()
     
-    def test_add(self):
+    def test_addition(self):
         self.assertEqual(self.calc.add(2, 3), 5)
         self.assertEqual(self.calc.add(-1, 1), 0)
         self.assertEqual(self.calc.add(4, 9), 13)
     
-    def test_subtract(self):
+    def test_subtraction(self):
         self.assertEqual(self.calc.subtract(9, 4), 5)
         self.assertEqual(self.calc.subtract(57, 21), 36)
         self.assertEqual(self.calc.subtract(-8, -3), -5)
