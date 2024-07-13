@@ -20,13 +20,11 @@ def main():
     elif command == "withdraw" and amount is not None:
         if account.withdraw(amount):
             print(f"Withdrew: ${amount:.2f}")
-        else:
-            pass
     elif command == "display":
         account.display_balance()
 
     else:
-        print("Invalid command.")
+        print("Invalid command or missing amount.")
 
 if __name__ == "__main__":
     main()
